@@ -3,6 +3,7 @@ $(function(){
 		ContentList = $('section#button ul li div.content'),
 		flag = false,
 		current = -1;
+
 	function OpenMenu(){
 		ContentList.eq(indexList).animate({
 				height: 100,
@@ -23,10 +24,11 @@ $(function(){
 		indexList = ($(this).index());
 		if (current != -1) {
 			CloseMenu(current);	
-			flag = false;
 			if (current == indexList) {
 				flag = true;
-			};
+			}else{
+				flag = false;
+			}
 		};
 		if (!flag) {
 			OpenMenu();	
