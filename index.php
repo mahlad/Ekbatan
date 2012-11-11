@@ -86,7 +86,17 @@
 	<div class="line"></div>
 	<section id="end">
 		<div class="text-left">
-			what ....
+			<h1>what ....</h1>
+			<div class="txt">
+				<div class="content-txt">
+					reatively, Shihab has fantastic talent and elegant style. After Shihab did such a fantastic job redesigning our corporate logo there was no question we hoped to recruit him to update our website. His
+				</div>
+			</div>
+			<div class="btn-read">
+				<a href="#">
+					<img src="images/button_readall.png" />
+				</a>
+			</div>
 			
 		</div>
 		<div class="text-right">
