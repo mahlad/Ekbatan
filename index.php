@@ -86,7 +86,7 @@
 	<div class="line"></div>
 	<section id="end">
 		<div class="text-left">
-			<h1>what ....</h1>
+			<h1 class="contactus">what ....</h1>
 			<div class="txt">
 				<div class="content-txt">
 					reatively, Shihab has fantastic talent and elegant style. After Shihab did such a fantastic job redesigning our corporate logo there was no question we hoped to recruit him to update our website. His
@@ -100,7 +100,10 @@
 			
 		</div>
 		<div class="text-right">
-			Contact us ....			
+			<h1 class="contactus">Contact us ....</h1>
+			<div class="contact">
+				ujhndjsk hfnvdjkvndjk
+			</div>
 		</div>
 	</section>
 	<footer id="footer">
