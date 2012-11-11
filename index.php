@@ -85,11 +85,17 @@
 	</section>
 	<div class="line"></div>
 	<section id="end">
-		
+		<div class="text-left">
+			what ....
+			
+		</div>
+		<div class="text-right">
+			Contact us ....			
+		</div>
 	</section>
 	<footer id="footer">
 		<div class="footer-txt">
-			copye hfjkdkdjvn dnhvjdfhvn
+			image copy right .....
 		</div>
 	</footer>
 </body>
