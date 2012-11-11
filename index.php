@@ -106,6 +106,8 @@
 				<form>
 					<input type="text" class="name" id="name" />
 					<input type="text" class="email" id="email" />
+					<textarea class="textarea" id="texterea" placeholder="Your queries"></textarea>
+<input type="image" name="btnimg" id="btnimg" src="images/button_sendme.png" />
 
 				</form>
 			</div>
