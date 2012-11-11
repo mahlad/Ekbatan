@@ -1,5 +1,36 @@
 @main-color : #B84432;
 @text-color : #BBB;
+
+/*::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+*/
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: #969696;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2B2B2B;
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+  background: #1A1A1A;
+}
 body{
 	width: 100%;
 	height: 100%;
@@ -103,7 +134,7 @@ body{
 				div.header-bg{
 					width: 100%;
 					height: 70px;
-					background-image: url(images/accordian_bg.gif);
+					background-image: url('images/accordian_bg.gif');
 					background-repeat: repeat-x;
 					div.header-txt{
 						width: 900px;
@@ -233,8 +264,8 @@ body{
 						background-color: #333;
 						float: left;
 						font: normal 13px/22px "Trebuchet MS",Arial,Tahoma;
-						color: #BBB;
-						background: transparent url(images/field_email.gif) no-repeat;
+						color: @text-color;
+						background: transparent url('images/field_email.gif') no-repeat;
 					}
 
 					textarea.textarea{
@@ -246,7 +277,7 @@ body{
 						background-color: #333;
 						float: left;
 						font: normal 13px/20px "Trebuchet MS",Arial,Tahoma;
-						color: #BBB;
+						color: @text-color;
 						background: #333;
 					}
 				}
