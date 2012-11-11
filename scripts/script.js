@@ -11,13 +11,18 @@ $(function(){
 		flag = true;
 		current = indexList;
 	}; 
+
+	function CloseMenu(choos){
+		ContentList.eq(choos).animate({
+			height: 0,
+			'display' : 'none',
+		},300);
+	};
+
 	ListMenu.click(function(){
 		indexList = ($(this).index());
 		if (current != -1) {
-			ContentList.eq(current).animate({
-				height: 0,
-				'display' : 'none',
-			},300);
+			CloseMenu(current);	
 			flag = false;
 			if (current == indexList) {
 				flag = true;
@@ -26,11 +31,9 @@ $(function(){
 		if (!flag) {
 			OpenMenu();	
 		}else{
-			ContentList.eq(indexList).animate({
-				height: 0,
-				'display': 'none',
-			},300);
+			CloseMenu(indexList);
 		 	flag = false;
+		 	current = -1;
 		 }
 	});
 	
