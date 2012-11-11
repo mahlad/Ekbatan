@@ -3,7 +3,7 @@ The website for the **????????**
 
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/@@@@@/issues)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/primedev/Ekbatan.git/issues)
 
 * Check our project's source with
 ```
