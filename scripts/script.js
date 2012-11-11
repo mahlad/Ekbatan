@@ -45,4 +45,9 @@ $(function(){
 		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
 		BtnEkbatan.removeClass('buttonekbatan').addClass('buttonkanon');
 	});
+
+	BtnEkbatan.click(function(){
+		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
+		BtnKanon.removeClass('buttonekbatan').addClass('buttonkanon');
+	});
 });
