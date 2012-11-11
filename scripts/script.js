@@ -1,6 +1,8 @@
 $(function(){
 	var ListMenu = $('section#button ul li'),
 		ContentList = $('section#button ul li div.content'),
+		BtnKanon = $('section.main div.main-txt div.buttonkanon'),
+		BtnEkbatan = $('section.main div.main-txt div.buttonekbatan'),
 		flag = false,
 		current = -1;
 
@@ -39,4 +41,8 @@ $(function(){
 		 }
 	});
 	
+	BtnKanon.click(function(){
+		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
+		BtnEkbatan.removeClass('buttonekbatan').addClass('buttonkanon');
+	});
 });
