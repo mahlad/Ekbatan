@@ -24,7 +24,7 @@
 			<h3>Thank you for discovering me. This website is the virtual home of mine. I always had the passion to be creative in some way and  wanted to pursue it.
         I figured, it was about time to see what i could do and find which avenue to take to be successful.</h3>
         	<div class="buttonekbatan">what i do</div>
-        	<div class="buttonkanon">heir me</div>
+        	<div class="buttonkanon">کانون</div>
 		</div>
 	</section>
 	<section id="button">
