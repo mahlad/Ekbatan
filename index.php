@@ -102,7 +102,7 @@
 		<div class="text-right">
 			<h1 class="contactus">Contact us ....</h1>
 			<div class="contact">
-				ujhndjsk hfnvdjkvndjk
+				The best way to reach me is through email. Please feel free to contact me anytime for any work related queries. You're always welcome :)
 			</div>
 		</div>
 	</section>
