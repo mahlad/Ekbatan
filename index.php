@@ -83,5 +83,14 @@
 			</li>
 		</ul>
 	</section>
+	<div class="line"></div>
+	<section id="end">
+		
+	</section>
+	<footer id="footer">
+		<div class="footer-txt">
+			copye hfjkdkdjvn dnhvjdfhvn
+		</div>
+	</footer>
 </body>
 </html>
