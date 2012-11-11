@@ -104,7 +104,9 @@
 			<div class="contact">
 				The best way to reach me is through email. Please feel free to contact me anytime for any work related queries. You're always welcome :)
 				<form>
+					<input type="text" class="name" id="name" />
 					<input type="text" class="email" id="email" />
+
 				</form>
 			</div>
 		</div>
