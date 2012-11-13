@@ -11,7 +11,7 @@
 				<a class="left" href="https://github.com/mahlad" title="My github">https://github.com/mahlad</a>
 			</td>
 			<td class="icon">
-				<img class="git" src="images/phone_handset.png" alt="My github">
+				<img  src="images/icon-business-home5.png" alt="My website">
 			</td>
 			<td>
 				<a class="right" href="https://github.com/zohreh-z" title="My github">https://github.com/zohreh-z</a>
@@ -22,7 +22,7 @@
 				<a class="left" href="http://mahlad.ir" title="My website">http://mahlad.ir/</a>
 			</td>
 			<td class="icon">
-				<img  src="images/www.png" alt="My website">
+				<img class="git" src="images/phone_handset.png" alt="My github">
 			</td>
 			<td >
 				<a class="right" href="http://www.zahedy.ir" title="My website">http://www.zahedy.ir</a>
