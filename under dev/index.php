@@ -15,6 +15,7 @@
 	<div class="out"></div>
 	<div class="container">
 		<?php 
+			include 'about-ekbatan.php';
 			include 'about.php';
 		 ?>
 		 <div class="video-bg">
