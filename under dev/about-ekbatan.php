@@ -33,7 +33,7 @@
 				<p class="left">mahlad365@gmail.com</p>
 			</td>
 			<td class="icon">
-				<img class="git" src="images/gmail.png" alt="My github">
+				<img class="git" src="images/icon-business-phone-cell.png" alt="My github">
 			</td>
 			<td>
 				<p class="right">zahedi.zohreh@gmail.com</p>
