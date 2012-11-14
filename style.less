@@ -157,7 +157,7 @@ body{
 					background-repeat: repeat-x;
 					/*height: 0;*/
 					display: none;
-					/*-webkit-transition : all 1s;*/
+					/*-webkit-transition : all 0.5s;*/
 
 					div.txt{
 						width: 850px;
@@ -357,6 +357,29 @@ body{
 			p{
 				font-size: 18px;
 				line-height: 2;
+			}
+
+			a{
+				display: inline-block;
+				width:130px;
+				height: 40px;
+				font-size: 20px;
+				color: @main-color;
+				background-image: url('images/accordian_bg.gif');
+				background-repeat:repeat-x;
+				border-radius:10px;
+				box-shadow: 1px 1px 10px #222;
+				-webkit-transition : all 0.5s;
+
+				&:hover{
+					box-shadow: 1px 1px 8px #656565;
+					border-radius:20px;
+				}
+				div.bg-top-a{
+					width: 80px;
+					margin: 0 auto;
+					line-height: 40px;
+				}
 			}
 		}
 	}
