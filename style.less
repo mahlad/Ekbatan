@@ -30,6 +30,9 @@ body{
 	background-image: url("images/bg_body.jpg");
 	direction: rtl;
 
+	a{
+		text-decoration: none;
+	}
 	section.main{
 		width:100%;
 		height: 560px;
@@ -152,7 +155,7 @@ body{
 					background-image: url("images/shader.png");
 					background-position: top;
 					background-repeat: repeat-x;
-					height: 0;
+					/*height: 0;*/
 					display: none;
 					/*-webkit-transition : all 1s;*/
 
@@ -304,5 +307,16 @@ body{
 		padding: 20px 5px;
 		color: @text-color;
 		float: right;
+
+		article{
+
+			a{
+				display: block;
+				padding: 10px 5px;
+				color: @text-color;
+				font-size: 18px;
+				line-height: 2;
+			}
+		}
 	}
 }
