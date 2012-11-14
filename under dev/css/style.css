@@ -6,12 +6,30 @@
 /*----------Global Section----------*/
 div.total{
 	position: absolute;
-	top: 0;
+	top: 50px;
 	left: 10px;
 }
 
 a{
 	text-decoration: none;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 15;
+	opacity: 1;
+	height: 50px;
+	background-image: url('../images/top_b1g.png');
+}
+header h1{
+	line-height: 50px;
+	padding:0 40px;
+	color: #DAD5CD;
+	letter-spacing: 3px;
+	font-size: 27px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 div.out{
 	background: url(../images/Lotus1.jpg) no-repeat;
