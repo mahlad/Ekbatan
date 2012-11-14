@@ -309,14 +309,22 @@ body{
 		float: right;
 
 		article{
-
+			background-image: url('images/line.png');
+			background-repeat: repeat-x;
+			background-position: bottom;
+			padding:10px 0;
 			a{
 				display: block;
 				padding: 10px 5px;
 				color: @text-color;
-				font-size: 18px;
+				font-size: 17px;
 				line-height: 2;
+
+				&:hover{
+					color :@main-color;
+				}
 			}
+
 		}
 	}
 }
