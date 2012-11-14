@@ -335,16 +335,30 @@ body{
 	}
 
 	section.content-article{
-		width: 100%;
+		width: 950px;
+		margin: 0 auto;
 		min-height:700px;
-		margin: 0;
-		padding: 0;
-		border: 0;
 		font: normal 13px/22px Arial,Tahoma;
-		color: #666;
+		color: @text-color;
 		text-decoration: none;
 		background-image: url("images/bg_body.jpg");
 		direction: rtl;
+
+		article{
+			width: 900px;
+			padding: 20px 5px;
+			text-align: right;
+
+			h1{
+				font-weight:bold;
+				padding: 10px 0;
+			}
+
+			p{
+				font-size: 18px;
+				line-height: 2;
+			}
+		}
 	}
 }
 
