@@ -138,7 +138,6 @@ body{
 							float: right;
 						}
 						div.header-title{
-							/*width: 400px;*/
 							height: 30px;
 							font: normal 24px/24px "Trebuchet MS", Myriad, "Myriad Pro", Arial;
 							color: #948A72;
@@ -155,13 +154,18 @@ body{
 					background-image: url("images/shader.png");
 					background-position: top;
 					background-repeat: repeat-x;
-					/*height: 0;*/
 					display: none;
-					/*-webkit-transition : all 0.5s;*/
+					color:@text-color; 
 
 					div.txt{
 						width: 850px;
 						margin: 0 auto;
+						text-align: right;
+
+						p{
+							font-size: 19px;
+							padding: 15px 10px;
+						}
 					}
 				}	
 			}
@@ -234,7 +238,7 @@ body{
 				height: 200px;
 				float: left;
 				font: normal 13px/22px "Trebuchet MS", Arial;
-				color: #BBB;
+				color: @text-color;
 				padding: 0px 0px 15px 15px;
 
 				form{
@@ -249,7 +253,7 @@ body{
 						background-color: #333;
 						float: left;
 						font: normal 13px/22px "Trebuchet MS",Arial,Tahoma;
-						color: #BBB;
+						color: @text-color;
 						background: transparent url('images/field_name.gif') no-repeat;
 					}
 					input.email{
@@ -374,6 +378,7 @@ body{
 				&:hover{
 					box-shadow: 1px 1px 8px #656565;
 					border-radius:20px;
+					color: #a83464;
 				}
 				div.bg-top-a{
 					width: 80px;
