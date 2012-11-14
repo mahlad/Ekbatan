@@ -26,6 +26,7 @@ div.out{
 /*----------About----------*/
 div.about{
 	width: 850px;
+	margin: 0 auto;
 	position: fixed;
 	bottom: 0;
 	z-index: 5;
@@ -72,7 +73,7 @@ div.about table tr td a{
 	padding: 5px;
 	display: block;
 }
-div.about table tr td a:hover{
+div.about table tr td a:hover , div.about table caption a:hover{
 	text-decoration: underline;
 	color: #666;
 }
