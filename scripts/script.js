@@ -8,7 +8,7 @@ $(function(){
 
 	function OpenMenu(){
 		ContentList.eq(indexList).animate({
-				height: 100,
+				// 'min-height': '200px',
 				'display': 'block',
 			},300);
 		flag = true;
@@ -17,7 +17,7 @@ $(function(){
 
 	function CloseMenu(choos){
 		ContentList.eq(choos).animate({
-			height: 0,
+			// height: 0,
 			'display' : 'none',
 		},300);
 	};
