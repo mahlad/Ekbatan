@@ -51,20 +51,24 @@ div.about table caption , div.about-ekbatan table caption{
 div.about table td , div.about-ekbatan table td{
 	padding: 0 5px;
 }
-div.about table th p , div.about-ekbatan th p{
+div.about table th p ,div.about-ekbatan th p {
 	color: #fff;
 	font-weight:bold;
 	font-size: 14px;
 	text-transform: capitalize;
 	padding: 5px;
 }
-div.about table tr td a , div.about-ekbatan table tr td a{
+div.about-ekbatan th p{
+	font-size: 24px;
+	font-weight: bold;
+}
+div.about table tr td a{
 	color: #fff;
 	text-decoration: none;
 	padding: 5px;
 	display: block;
 }
-div.about table tr td a:hover , div.about-ekbatan table tr td a:hover{
+div.about table tr td a:hover{
 	text-decoration: underline;
 	color: #666;
 }
@@ -72,6 +76,9 @@ div.about table tr td p , div.about-ekbatan table tr td p{
 	color: #fff;
 	padding: 5px;
 	display: block;
+}
+div.about-ekbatan table tr td p{
+	font-weight:bold;
 }
 td.icon{
 	width: 50px;
