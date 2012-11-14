@@ -1,4 +1,4 @@
-<section class="content-article">
+<section class="container-article">
 	<article>
 		<h1 class="right">آشنایی با چاپگر ها</h1>
 		<br />
