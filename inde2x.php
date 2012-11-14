@@ -25,7 +25,11 @@
 					</div>
 				</div>
 				<div class="content">
-					<div class="txt">hdghfjabdjababdbdbadbabdbdabmdbabdbdabdbhcbhbhbdh</div>
+					<div class="txt">
+						<?php 
+							include "marketing.php";
+						?>
+					</div>
 				</div>
 			</li>
 			<li>
