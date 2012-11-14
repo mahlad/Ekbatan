@@ -2,52 +2,52 @@
 	<table>
 		<caption>Contact Information</caption>
 		<tr>
-			<th><p class="left">mahla delpak</p></th>
+			<th><p class="left">شرکت اکباتان</p></th>
 			<th></th>
-			<th><p class="right">zohre zahedy</p></th>
+			<th><p class="right">کانون اکباتان</p></th>
 		</tr>
 		<tr>
 			<td>
-				<a class="left" href="https://github.com/mahlad" title="My github">https://github.com/mahlad</a>
+				<p class="left">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 			</td>
 			<td class="icon">
 				<img  src="images/icon-business-home5.png" alt="My website">
 			</td>
 			<td>
-				<a class="right" href="https://github.com/zohreh-z" title="My github">https://github.com/zohreh-z</a>
+				<p class="right">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<a class="left" href="http://mahlad.ir" title="My website">http://mahlad.ir/</a>
+				<p class="left">+98(511) 879 73 31</p>
 			</td>
 			<td class="icon">
 				<img class="git" src="images/phone_handset.png" alt="My github">
 			</td>
 			<td >
-				<a class="right" href="http://www.zahedy.ir" title="My website">http://www.zahedy.ir</a>
+				<p class="right">+98(511) 879 73 31</p
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<p class="left">mahlad365@gmail.com</p>
+				<p class="left">+98(511) 879 73 31</p>
 			</td>
 			<td class="icon">
 				<img class="git" src="images/fax icon.png" alt="My github">
 			</td>
 			<td>
-				<p class="right">zahedi.zohreh@gmail.com</p>
+				<p class="right">+98(511) 879 73 31</p>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<p class="left">mahlad365@gmail.com</p>
+				<p class="left">+98 915 816 11 57</p>
 			</td>
 			<td class="icon">
-				<img class="git" src="images/icon-business-phone-cell.png" alt="My github">
+				<img class="git" src="images/icon-business-phone-cell.png" alt="My Moblie">
 			</td>
 			<td>
-				<p class="right">zahedi.zohreh@gmail.com</p>
+				<p class="right">+98 915 816 11 57</p>
 			</td>
 		</tr>
 	</table>
