@@ -68,7 +68,7 @@
 					</div>
 				</div>
 				<div class="content">
-					<div class="txt">hdghfjabdjababdbdbadbabdbdabmdbabdbdabdbhcbhbhbdh</div>
+					<div class="txt">خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما </div>
 				</div>
 			</li>
 			<li>
