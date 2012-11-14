@@ -1,16 +1,17 @@
 $(function(){
-	var ListMenu = $('section#button ul li'),
-		ContentList = $('section#button ul li div.content'),
+	var ListMenu = $('section#button ul li '),
+		ContentList = $('section#button ul  div.content'),
 		BtnKanon = $('section.main div.main-txt div.buttonkanon'),
 		BtnEkbatan = $('section.main div.main-txt div.buttonekbatan'),
 		flag = false,
 		current = -1;
 
 	function OpenMenu(){
-		ContentList.eq(indexList).animate({
+		openli=indexList/2;
+		ContentList.eq(openli).animate({
 				// 'min-height': '200px',
-				'display': 'block',
-			},300);
+			'display': 'block',
+		},300);
 		flag = true;
 		current = indexList;
 	}; 
@@ -25,7 +26,7 @@ $(function(){
 	ListMenu.click(function(){
 		indexList = ($(this).index());
 		if (current != -1) {
-			CloseMenu(current);	
+			CloseMenu(openli);	
 			if (current == indexList) {
 				flag = true;
 			}else{
@@ -35,7 +36,7 @@ $(function(){
 		if (!flag) {
 			OpenMenu();	
 		}else{
-			CloseMenu(indexList);
+			CloseMenu(openli);
 		 	flag = false;
 		 	current = -1;
 		 }
