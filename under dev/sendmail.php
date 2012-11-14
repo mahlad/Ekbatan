@@ -8,7 +8,7 @@
 	<?php
 		error_reporting(E_ALL ^ E_NOTICE);
 
-		$admin = 'zahedi.zohreh@gmail.com';
+		$admin = 'kanoon.ekbatan@gmail.com';
 		$name    = $_POST['name'];
 		$subject = $_POST['subject'];
 		$text    = $_POST['txt'];

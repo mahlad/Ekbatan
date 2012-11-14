@@ -4,17 +4,17 @@
 		<tr>
 			<th><p class="left">شرکت اکباتان</p></th>
 			<th></th>
-			<th><p class="right">کانون اکباتان</p></th>
+			<th><p class="right">کانون</p></th>
 		</tr>
 		<tr>
 			<td>
-				<p class="left f8">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
+				<p class="left f9">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 			</td>
 			<td class="icon">
 				<img  src="images/icon-business-home5.png" alt="My website">
 			</td>
 			<td>
-				<p class="right f8">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
+				<p class="right f9">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 			</td>
 		</tr>
 		<tr>
