@@ -28,6 +28,7 @@ body{
 	color: #666;
 	text-decoration: none;
 	background-image: url("images/bg_body.jpg");
+	direction: rtl;
 
 	section.main{
 		width:100%;
@@ -153,6 +154,12 @@ body{
 					background-repeat: repeat-x;
 					height: 0;
 					display: none;
+					/*-webkit-transition : all 1s;*/
+
+					div.txt{
+						width: 900px;
+						margin: 0 auto;
+					}
 				}	
 			}
 		}
@@ -172,13 +179,13 @@ body{
 		background-image: url('images/shader.png');
 		background-repeat: repeat-x;*/
 		h1.contactus{
-				height: 40px;
-				font: normal 26px/20px "Trebuchet MS", Arial, Myriad, "Myriad Pro";
-				color: @text-color;
-				float: left;
-				margin-left: 15px;
-				text-shadow: -1px -1px 1px #111;
-			}
+			height: 40px;
+			font: normal 26px/20px "Trebuchet MS", Arial, Myriad, "Myriad Pro";
+			color: @text-color;
+			float: left;
+			margin-left: 15px;
+			text-shadow: -1px -1px 1px #111;
+		}
 		div.text-left{
 			width: 450px;
 			height: 275px;
