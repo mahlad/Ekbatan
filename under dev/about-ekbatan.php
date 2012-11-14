@@ -8,13 +8,13 @@
 		</tr>
 		<tr>
 			<td>
-				<p class="left">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
+				<p class="left f8">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 			</td>
 			<td class="icon">
 				<img  src="images/icon-business-home5.png" alt="My website">
 			</td>
 			<td>
-				<p class="right">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
+				<p class="right f8">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 			</td>
 		</tr>
 		<tr>
