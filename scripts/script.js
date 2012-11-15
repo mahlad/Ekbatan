@@ -55,7 +55,6 @@ $(function(){
 
 	/************ CLICK ON SET GALLERY *************/
 	ListSetGallery.mouseover(function(){
-		alert(12);
 		// $(this).css{widyh : 150};
 	});
 });
