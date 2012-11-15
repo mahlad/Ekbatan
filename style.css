@@ -18,10 +18,19 @@ div.banner ul li{
 }
 div.banner ul li img{
 	display:block;
-	-webkit-transition : all 0.7s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+	-o-transition:all 0.5s;
+	transition:all 0.5s;
 }
+
 div.banner ul li img:hover{
-	-webkit-transition : scale(1.2,1.2);
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+	-o-transform: scale(1.5,1.5);
+	transform: scale(1.1,1.1);
 }
 div.banner .next{
 	width:40px;
