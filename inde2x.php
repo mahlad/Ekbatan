@@ -14,7 +14,7 @@
 		</div>
 	</section>
 	<section id="button">
-		<ul>
+		<ul id="main-menu">
 			<li>
 				<div class="header-bg">
 					<div class="header-txt cover">
@@ -61,7 +61,9 @@
 			</li>
 			<div class="content">
 				<div class="txt">
-					hdghf jabdja bab 	dbdbadbabdbdab mdbabd bdabdb hcbh bhbdh
+					<?php 
+						include "setgallery.php";
+					?>
 				</div>
 			</div>
 			<li>
