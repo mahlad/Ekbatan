@@ -335,55 +335,112 @@ body{
 			}
 		}
 	}
-
 	section.content-article{
 		width: 950px;
-		margin: 0 auto;
-		min-height:700px;
-		font: normal 13px/22px Arial,Tahoma;
-		color: @text-color;
-		text-decoration: none;
-		background-image: url("images/bg_body.jpg");
-		direction: rtl;
-
-		article{
-			width: 900px;
-			padding: 20px 5px;
-			text-align: right;
-
-			h1{
-				font-weight:bold;
-				padding: 10px 0;
+		height:650px;
+		position: relative;	
+		margin:30px auto;
+		border-radius:10px;
+		background-image: url("images/white_leather.png");
+		div.title{
+			float: right;
+			position: relative;
+			div.title-article{
+				width: 25px;
+				height: 62px;
+				margin-left:10px;
+				margin-top:-15px; 
+				background: transparent url("images/mainMenu-left.png") no-repeat 0 0;
 			}
 
-			p{
-				font-size: 18px;
-				line-height: 2;
+			div.middle{
+				float: left;
+				min-width: 150px;
+				height: 62px;
+				margin-top:-15px;
+				background: transparent url("images/mainMenu-repeat.png") repeat-x 0 0;
 			}
 
-			a{
-				display: inline-block;
-				width:130px;
-				height: 40px;
+			div.end{
+				float: left;
+				width: 20px;
+				height: 62px;
+				margin-top:-15px;
+				background: transparent url("images/mainMenu-right.png") no-repeat 0 0;
+			}
+			div.txt-article{
+				position: absolute;
+				top:5px;
+				right: 25px;
 				font-size: 20px;
-				color: @main-color;
-				background-image: url('images/accordian_bg.gif');
-				background-repeat:repeat-x;
-				border-radius:10px;
-				box-shadow: 1px 1px 10px #222;
-				-webkit-transition : all 0.5s;
-
-				&:hover{
-					box-shadow: 1px 1px 8px #656565;
-					border-radius:20px;
-					color: #a83464;
-				}
-				div.bg-top-a{
-					width: 80px;
-					margin: 0 auto;
-					line-height: 40px;
-				}
+				color: #fff;
 			}
+		}
+		div.ribbon{
+			position: absolute;
+			bottom: 40px;
+			left:-13px;
+			width: 205px;
+			div.ribbon-left{
+				float: left;
+				width: 52px;
+				height: 45px;
+				background: transparent url("images/ribbon-wrap.png") no-repeat 0 -104px;
+			}
+
+			div.tab{
+				float: left;
+				width: 150px;
+				height: 45px;
+				background: transparent url("images/2.png") no-repeat 0 7px;
+			}
+		}
+		div.txt-article2{
+			position: absolute;
+			line-height: 55px;
+			right: 45px;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			color: #fff;
+			-webkit-transition: all 0.6s;
+			&:hover{
+				color: #919191;	
+			}
+		}
+		div.ribbon2{
+			position: absolute;
+			bottom: 100px;
+			left:-13px;
+			width: 205px;
+
+			div.ribbon-left2{
+				float: left;
+				width: 52px;
+				height: 45px;
+				background: transparent url("images/ribbon-wrap.png") no-repeat 0 0;
+			}
+
+			div.tab2{
+				float: left;
+				width: 150px;
+				height: 45px;
+				background: transparent url("images/2.png") no-repeat 0 7px;
+			}
+		}
+
+		div.shadow{
+			margin:50px 20px;
+			padding: 10px;
+			border: 2px dashed #AAA;
+			box-shadow: 0 0 0 1px whiteSmoke;
+			border-radius: 10px;
+			text-align: justify;
+			max-height: 430px;
+			font-size: 25px;
+			overflow: auto;
+			color: rgba(0,0,0,0.3);
+		    text-shadow: 1px 1px 2px #fff;
 		}
 	}
 	/******************* MARKETING ********************/
