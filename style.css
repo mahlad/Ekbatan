@@ -40,7 +40,7 @@ div.banner .next{
 	position:absolute;
 	right:0;
 	top:110px;
-	background-image:url('image/next.png');
+	background-image:url('images/image-setgallery/next.png');
 	background-repeat:no-repeat;
 }
 
@@ -51,18 +51,18 @@ div.banner .back{
 	position:absolute;
 	left:0;
 	top:110px;
-	background-image:url('image/prev.png');
+	background-image:url('images/image-setgallery/prev.png');
 	background-repeat:no-repeat;
 }
 
 div.banner .ngallery{
 	left: 150px !important;
 	top: -48px !important;
-	background-image:url(image/gallery-nxt.png) !important;
+	background-image:url('images/image-setgallery/gallery-nxt.png') !important;
 }
 
 div.banner .pgallery{
 	left: 70px !important;
 	top: 830px !important;
-	background-image:url(image/gallery-prv.png) !important;
+	background-image:url('images/image-setgallery/gallery-prv.png') !important;
 }
