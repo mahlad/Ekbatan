@@ -54,7 +54,7 @@ $(function(){
 	});
 
 	/************ CLICK ON SET GALLERY *************/
-	// ListSetGallery.mouseover(function(){
-	// 	// $(this).css{widyh : 150};
-	// });
+	ListSetGallery.click(function(){
+		window.open("gallery.php");
+	});
 });
