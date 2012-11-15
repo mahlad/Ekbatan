@@ -55,6 +55,6 @@ $(function(){
 
 	/************ CLICK ON SET GALLERY *************/
 	ListSetGallery.click(function(){
-		window.open("projects.php");
+		window.open("slide-top.php");
 	});
 });
