@@ -1,8 +1,9 @@
 $(function(){
-	var ListMenu = $('section#button ul li '),
-		ContentList = $('section#button ul  div.content'),
+	var ListMenu = $('section#button  ul#main-menu > li '),
+		ContentList = $('section#button  ul#main-menu  div.content'),
 		BtnKanon = $('section.main div.main-txt div.buttonkanon'),
 		BtnEkbatan = $('section.main div.main-txt div.buttonekbatan'),
+		ListSetGallery = $('div.banner ul li'),
 		flag = false,
 		current = -1;
 
@@ -41,7 +42,7 @@ $(function(){
 		 	current = -1;
 		 }
 	});
-	
+	/******************** MAIN MENU **************/
 	BtnKanon.click(function(){
 		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
 		BtnEkbatan.removeClass('buttonekbatan').addClass('buttonkanon');
@@ -50,5 +51,11 @@ $(function(){
 	BtnEkbatan.click(function(){
 		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
 		BtnKanon.removeClass('buttonekbatan').addClass('buttonkanon');
+	});
+
+	/************ CLICK ON SET GALLERY *************/
+	ListSetGallery.mouseover(function(){
+		alert(12);
+		// $(this).css{widyh : 150};
 	});
 });
