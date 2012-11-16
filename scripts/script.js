@@ -12,7 +12,7 @@ $(function(){
 		if (openli == 2) {
 			hmenu = 800;
 		}else{
-			hmenu = 450;
+			hmenu = 470;
 		};
 		ContentList.eq(openli).css({
 			'display': 'block',
