@@ -9,19 +9,30 @@ $(function(){
 
 	function OpenMenu(){
 		openli=indexList/2;
-		ContentList.eq(openli).animate({
-				// 'min-height': '200px',
+		if (openli == 2) {
+			hmenu = 800;
+		}else{
+			hmenu = 450;
+		};
+		ContentList.eq(openli).css({
 			'display': 'block',
-		},300);
+		}).animate({
+				opacity : 1,
+				height:hmenu,
+			},800);
 		flag = true;
 		current = indexList;
 	}; 
 
 	function CloseMenu(choos){
 		ContentList.eq(choos).animate({
-			// height: 0,
-			'display' : 'none',
-		},300);
+			opacity : 0,
+			height:0,
+		},800,'',function(){
+			$(this).css({
+				'display' : 'none',
+			});
+		});
 	};
 
 	ListMenu.click(function(){
