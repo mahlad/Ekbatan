@@ -106,12 +106,11 @@
 			<div class="text-left">
 				<h1 class="contactus">درباره ما</h1>
 				<div class="txt">
-					<div class="content-txt f13">
-						مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5
-						<br />
-						تلفن :+98(511) 879 73 31<br />
-						فاکس : +98(511) 879 73 31<br />
-						موبایل : +98 915 816 11 57
+					<div class="content-txt f12">
+						<p class="tel">+98(511) 879 73 31</p>
+						<p class="mobile">+98 915 816 11 57</p>
+						<p class="fax">+98(511) 879 73 31</p>
+						<p class="adrs">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
 					</div>
 				</div>
 				<div class="btn-read">
