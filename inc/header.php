@@ -9,9 +9,16 @@
 	<link type="text/css"rel="stylesheet" href="style-slide-top.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<script type="text/javascript" src="scripts/jquery.js">
+	<script type="text/javascript">
+	// var replaceDigits = function () {
+	// 	var map = ["&\#1776;","&\#1777;","&\#1778;","&\#1779;","&\#1780;", "&\#1781;","&\#1782;","&\#1783;","&\#1784;","&\#1785;"]
+	// 	document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function($0) { return map[$0]});
+	// };
+	// 	window.onload = replaceDigits;
 	</script>
-	<script type="text/javascript" src="scripts/zepto.js">
+
+	<script type="text/javascript">
+		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
 	</script>
 	<script type="text/javascript" src="scripts/cueslider.js"></script>
 	<script type="text/javascript" src="scripts/slide-top.js"></script>
