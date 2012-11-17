@@ -9,6 +9,8 @@
 	<link type="text/css"rel="stylesheet" href="style-slide-top.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
+	<script type="text/javascript" src="scripts/jquery.js">
+	</script>
 	<script type="text/javascript" src="scripts/zepto.js">
 	</script>
 	<script type="text/javascript" src="scripts/cueslider.js"></script>
