@@ -130,6 +130,7 @@
 						<textarea class="textarea" id="texterea" placeholder="Your queries"></textarea>
 						<input type="image" name="btnimg" id="btnimg" src="images/button_sendme.png" />
 					</form>
+					<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 				</div>
 			</div>
 		</div>
