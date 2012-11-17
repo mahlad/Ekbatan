@@ -29,9 +29,9 @@ The website for the **????????**
 
 
 ### All rights reserved ###
-Please note that ??????.??? is a curated site and that we reserve the right to refuse any listing for any reason.
+Please note that ekbatane.com is a curated site and that we reserve the right to refuse any listing for any reason.
 
-The [??????.???](http://??????.???) code and website is released under a MIT License.
+The [ekbatan.com](http://ekbatan.com) code and website is released under a MIT License.
 
 
 
