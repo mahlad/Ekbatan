@@ -1,5 +1,5 @@
 ##EKBATAN website 
-The website for the **????????**
+The website for the **Ekbatane company**
 
 ###Contributing
 
@@ -7,7 +7,7 @@ The website for the **????????**
 
 * Check our project's source with
 ```
-    git clone https://github.com/1schools-projects/?????.???
+    git clone https://github.com/primedev/Ekbatan.git
 ```
 
 
