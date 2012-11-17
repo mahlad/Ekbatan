@@ -26,6 +26,13 @@
 	</script>
 	<script type="text/javascript" src="scripts/script.js">
 	</script>
-
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementById('loading').style.display='none';
+		}
+	</script>
 </head>
-<body>
+<body class="preload">
+	<div id="loading">
+		<img src="images/loading.gif" alt="">
+	</div>
