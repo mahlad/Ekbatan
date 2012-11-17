@@ -124,7 +124,7 @@
 				<h1 class="contactus">ارتباط با ما...</h1>
 				<div class="contact">
 					بهترین راه برای رسیدن به من از طریق ایمیل است. لطفا در صورت تمایل با من تماس بگیرید در هر زمان برای نمایش داده های مربوط به کار هر. شما همیشه استقبال :)
-					<form>
+					<form id="contact-form" action="sendmail.php" method="post" target='ifrm'>
 						<input type="text" class="name" id="name" />
 						<input type="text" class="email" id="email" />
 						<textarea class="textarea" id="texterea" placeholder="Your queries"></textarea>
