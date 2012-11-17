@@ -6,7 +6,7 @@ $(function(){
 		ListSetGallery = $('div.banner ul li'),
 		flag = false,
 		current = -1;
-		
+
 	function OpenMenu(){
 		openli=indexList/2;
 		if (openli == 2) {
