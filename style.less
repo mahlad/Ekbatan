@@ -17,6 +17,28 @@
     background: #c6c6c6;
 }
 
+div#loading , div#loading img {
+		opacity: 0;
+		position: fixed;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		background-color: black;
+		z-index: 125;
+
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		-ms-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+	div#loading img {
+		margin: 400px auto;
+	}
+	body.preload div#loading ,div#loading img {
+		opacity: 1;
+	}
 body{
 
 	width: 100%;
@@ -221,7 +243,6 @@ body{
 
 						p{
 							padding-right: 45px;
-							/*height: 20px;*/
 						}
 						p.tel{
 							background: url('images/contact-info.png') no-repeat 384px -70px;
