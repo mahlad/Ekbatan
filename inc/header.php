@@ -31,6 +31,21 @@
 			document.getElementById('loading').style.display='none';
 		}
 	</script>
+	<style type="text/css">
+		@font-face {
+		    font-family: 'Nazanin';
+		    src: url('fonts/BNazanin.eot');
+		    src: url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/BNazanin.woff') format('woff'),
+		         url('fonts/BNazanin.ttf') format('truetype');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		body {
+			font-family: 'Nazanin', Arial, sans-serif;
+			-webkit-font-smoothing : antialiased;
+		}
+	</style>
 </head>
 <body class="preload">
 	<div id="loading">
