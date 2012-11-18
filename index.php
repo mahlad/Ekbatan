@@ -106,11 +106,11 @@
 			<div class="text-left">
 				<h1 class="contactus">درباره ما</h1>
 				<div class="txt">
-					<div class="content-txt f12">
-						<p class="tel">+98(511) 879 73 31</p>
-						<p class="mobile">+98 915 816 11 57</p>
-						<p class="fax">+98(511) 879 73 31</p>
-						<p class="adrs">مشهد - بلوار پیروزی - بین پیروزی 6-8- پلاک 116 - واحد 5</p>
+					<div class="content-txt f13">
+						<p class="tel">7331 879 511 98+</p>
+						<p class="mobile">1157 816 915 98+</p>
+						<p class="fax">7331 879 511 98+</p>
+						<p class="adrs">مشهد - بلوار پیروزی - بین پیروزی 6-8 - پلاک 116 - واحد 5</p>
 					</div>
 				</div>
 				<div class="btn-read">
