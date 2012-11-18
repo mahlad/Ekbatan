@@ -1,4 +1,4 @@
-// Zepto/jQuery fadeLoop plugin for fade slide show effects
+// Zepto/jQuery fadeLoop plugin for CueSlideer effects
 (function($){
 	$.extend($.fn,{
 		cueslider : function(options){
