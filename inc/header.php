@@ -34,6 +34,7 @@
 			document.getElementById('loading').style.display='none';
 		}
 	</script>
+	<script type="text/javascript" src="scripts/jquery-1.js"></script>
 	<style type="text/css">
 		@font-face {
 		    font-family: 'Nazanin';
