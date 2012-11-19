@@ -1,10 +1,12 @@
 $(function(){
 	var ListMenu = $('section#button  ul#main-menu > li '),
 		ContentList = $('section#button  ul#main-menu  div.content'),
-		BtnKanon = $('section.main div.main-txt div.buttonkanon'),
-		BtnEkbatan = $('section.main div.main-txt div.buttonekbatan'),
+		BtnKanon = $('section.main div.buttonkanon'),
+		BtnEkbatan = $('section.main div.buttonekbatan'),
 		ListSetGallery = $('div.banner ul li'),
 		flag = false,
+		flagKanon = false,
+		flagEkbatan =false,
 		current = -1;
 
 	function OpenMenu(){
@@ -55,13 +57,47 @@ $(function(){
 	});
 	/******************** MAIN MENU **************/
 	BtnKanon.click(function(){
-		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
-		BtnEkbatan.removeClass('buttonekbatan').addClass('buttonkanon');
+		flagKanon = !flagKanon;
+		$(this).removeClass('buttonkanon').addClass('change-icon');
+		BtnEkbatan.removeClass('change-icon').addClass('buttonekbatan');
+		if (flagKanon) {
+			$('section#button').css({
+				'display': 'block',
+			});
+			$('section#end').css({
+				'display': 'block',
+			});
+		}else{
+			$('section#button').css({
+				'display': 'none',
+			});
+			$('section#end').css({
+				'display': 'none',
+			});
+			$(this).removeClass('change-icon').addClass('buttonkanon');
+		};
 	});
 
 	BtnEkbatan.click(function(){
-		$(this).removeClass('buttonkanon').addClass('buttonekbatan');
-		BtnKanon.removeClass('buttonekbatan').addClass('buttonkanon');
+		flagEkbatan = !flagEkbatan;
+		$(this).removeClass('buttonekbatan').addClass('change-icon');
+		BtnKanon.removeClass('change-icon').addClass('buttonkanon');
+		if (flagEkbatan) {
+			$('section#button').css({
+				'display': 'block',
+			});
+			$('section#end').css({
+				'display': 'block',
+			});
+		}else{
+			$('section#button').css({
+				'display': 'none',
+			});
+			$('section#end').css({
+				'display': 'none',
+			});
+			$(this).removeClass('change-icon').addClass('buttonekbatan');
+		}
 	});
 
 	/************ CLICK ON SET GALLERY *************/
