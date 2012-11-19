@@ -36,12 +36,12 @@ div#loading , div#loading img {
 		z-index: 125;
 		.transition(all 1s);
 	}
-	div#loading img {
-		margin: 400px auto;
-	}
-	body.preload div#loading ,div#loading img {
-		opacity: 1;
-	}
+div#loading img {
+	margin: 400px auto;
+}
+body.preload div#loading ,div#loading img {
+	opacity: 1;
+}
 body{
 
 	width: 100%;
@@ -58,10 +58,14 @@ body{
 	a{
 		text-decoration: none;
 	}
+
+	a:visited{
+		color: #111;/*kar nemikonad*/
+	}
 	section.main{
 		width:100%;
-		height: 560px;
-		background-image: url("images/headerbg.jpg");
+		height: 700px;
+		background-image: url("images/headerbg.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center top; 
@@ -79,7 +83,7 @@ body{
 				/*"Trebuchet MS", Myriad, "Myriad Pro", Arial;*/
 				color: #B03E2C;
 				text-shadow: 2px 2px 3px #AAA;
-				margin: 160px 400px 35px 10px;
+				margin: 160px 0px 35px 10px;
 				float: right;
 				letter-spacing: -0.035em;
 			}
@@ -87,7 +91,7 @@ body{
 				width: 460px;
 				height: 25px;
 				color: #111;
-				margin: 0px 350px 30px 10px;
+				margin: 0px 0px 30px 10px;
 				font: bold 24px/24px 'Nazanin', Arial, sans-serif;
 				/*"Trebuchet MS", Myriad, "Myriad Pro", Arial;*/
 				letter-spacing: -0.035em;
@@ -100,50 +104,72 @@ body{
 				width: 460px;
 				height: 115px;
 				color: #111;
-				margin: 0px 300px 55px 10px;
+				margin: 0px 0px 55px 10px;
 				font: normal 17px/28px 'Nazanin', Arial, sans-serif;
 				/*Arial,Myriad, "Myriad Pro";*/
 				color: #333;
 				float: right;
 			}
-			div.buttonekbatan{
-				width: 210px;
-				height: 37px;
-				margin: 0;
-				padding-top: 13px;
-				border: 0;
-				float: right;
-				background-image: url('images/buttonbg_whatido.png');
-				background-repeat: no-repeat;
-				background-position: bottom center;
-				font: normal 24px/24px 'Nazanin', Arial, sans-serif;
-				/*"Trebuchet MS", Myriad, "Myriad Pro", Arial;*/
-				color: #D9C898;
-				text-shadow: -1px -1px 0px black;
-				text-align: center;
-				cursor: pointer;
-			}
-			div.buttonkanon{
-				width: 210px;
-				height: 38px;
-				margin: 0;
-				padding-top: 12px;
-				border: 0;
-				float: right;
-				background-image: url(images/buttonbg_hireme.png);
-				background-repeat: no-repeat;
-				background-position: bottom center;
-				font: normal 24px/24px 'Nazanin', Arial, sans-serif;
-				/*"Trebuchet MS", Myriad, "Myriad Pro", Arial;*/
-				color: #D9C898;
-				text-shadow: -1px -1px 0px #851B0E;
-				text-align: center;
-				cursor: pointer;
-			}
+			
+		}
+		div.buttonekbatan{
+			width: 210px;
+			height: 37px;
+			margin-top: 90px;
+			/*margin-right: 120px;*/
+			padding-top: 13px;
+			border: 0;
+			float: right;
+			background-image: url('images/buttonbg_hireme.png');
+			background-repeat: no-repeat;
+			background-position: bottom center;
+			font: normal 24px/24px 'Nazanin', Arial, sans-serif;
+			color: #D9C898;
+			text-shadow: -1px -1px 0px black;
+			text-align: center;
+			cursor: pointer;
+		}
+		div.buttonkanon{
+			width: 210px;
+			height: 38px;
+			margin-right:10px;
+			margin-top: 90px;
+			padding-top: 12px;
+			border: 0;
+			float: right;
+			background-image: url('images/buttonbg_hireme.png');
+			background-repeat: no-repeat;
+			background-position: bottom center;
+			font: normal 24px/24px 'Nazanin', Arial, sans-serif;
+			/*"Trebuchet MS", Myriad, "Myriad Pro", Arial;*/
+			color: #D9C898;
+			text-shadow: -1px -1px 0px #851B0E;
+			text-align: center;
+			cursor: pointer;
+		}
+		.change-icon{
+			width: 210px;
+			height: 37px;
+			/*margin-right:120px;*/
+			margin-top: 90px;
+			padding-top: 13px;
+			border: 0;
+			float: right;
+			/*background-image: url('images/buttonbg_hireme.png');*/
+			background-repeat: no-repeat;
+			background-position: bottom center;
+			font: normal 24px/24px 'Nazanin', Arial, sans-serif;
+			/*"Trebuchet MS", Myriad, "Myriad Pro", Arial;*/
+			color: #D9C898;
+			text-shadow: -1px -1px 0px black;
+			text-align: center;
+			cursor: pointer;
+			background-image: url('images/buttonbg_whatido.png');
 		}
 	}
 	section#button{
 		width: 100%;
+		display: none;
 		ul{
 			list-style-type: none;
 			li{
@@ -209,6 +235,7 @@ body{
 	section#end{
 		width: 100%;
 		height: 350px;
+		display: none;
 		margin: auto;
 		background-image: url('images/shader.png');
 		background-repeat: repeat-x;
