@@ -113,12 +113,6 @@
 						<p class="adrs">مشهد - بلوار پیروزی - بین پیروزی 6-8 - پلاک 116 - واحد 5</p>
 					</div>
 				</div>
-				<div class="btn-read">
-					<a href="#">
-						<img src="images/button_readall.png" />
-					</a>
-				</div>
-				
 			</div>
 			<div class="text-right txr">
 				<h1 class="contactus">ارتباط با ما...</h1>
@@ -127,7 +121,7 @@
 					<form>
 						<input type="text" class="name" id="name" />
 						<input type="text" class="email" id="email" />
-						<textarea class="textarea" id="texterea" placeholder="Your queries"></textarea>
+						<textarea class="textarea" id="texterea" placeholder="پیغام"></textarea>
 						<input type="image" name="btnimg" id="btnimg" src="images/button_sendme.png" />
 					</form>
 				</div>
