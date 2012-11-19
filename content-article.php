@@ -28,10 +28,21 @@
 			</div>
 		</div>	
 	</a>
+	<a href="#">
+		<div class="ribbon3 cover">
+			<div class="ribbon-left3"></div>	
+			<div class="tab3"></div>
+			<div class="txt-article2 ">
+			بازگشت
+			</div>
+		</div>	
+	</a>
+	<!-- <div class="bk-img">بازگشت</div> -->
 	<div class="shadow">
 		<p>bla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkablakabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla kabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla kabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla kabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla abla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bkabla bka</p>	
 	</div>	
 </section>
+
 <?php 
 	include "./inc/footer.php";
 ?>
