@@ -107,10 +107,28 @@
 				<h1 class="contactus">درباره ما</h1>
 				<div class="txt">
 					<div class="content-txt f13">
-						<p class="tel">7331 879 511 98+</p>
+						<table>
+							<tr>
+								<td class="tel"></td>
+								<td class="txt">7331 879 511 98+</td>
+							</tr>
+							<tr>
+								<td class="mobile"></td>
+								<td class="txt">1157 816 915 98+</td>
+							</tr>
+							<tr>
+								<td class="fax"></td>
+								<td class="txt">7331 879 511 98+</td>
+							</tr>
+							<tr>
+								<td class="adrs"></td>
+								<td class="txt">مشهد - بلوار پیروزی - بین پیروزی 8-6 - پلاک 116 - واحد 5</td>
+							</tr>
+						</table>
+						<!-- <p class="tel">7331 879 511 98+</p>
 						<p class="mobile">1157 816 915 98+</p>
 						<p class="fax">7331 879 511 98+</p>
-						<p class="adrs">مشهد - بلوار پیروزی - بین پیروزی 6-8 - پلاک 116 - واحد 5</p>
+						<p class="adrs">مشهد - بلوار پیروزی - بین پیروزی 6-8 - پلاک 116 - واحد 5</p> -->
 					</div>
 				</div>
 			</div>
