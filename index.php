@@ -13,6 +13,7 @@
 		<div class="buttonekbatan">شرکت</div>
         <div class="buttonkanon">کانون</div>
 	</section>
+	<div class="location-main-btn cover"></div>
 	<section id="button">
 		<ul id="main-menu">
 			<li>
