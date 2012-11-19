@@ -68,14 +68,21 @@ $(function(){
 				'display': 'block',
 			});
 		}else{
-			$('section#button').css({
-				'display': 'none',
+			$('html, body').animate({
+				scrollTop: $(".main").offset().top
+			}, 1000 ,'',function(){
+				$('section#button').css({
+					'display': 'none',
+				});
+				$('section#end').css({
+					'display': 'none',
+				});
+				BtnKanon.removeClass('change-icon').addClass('buttonkanon');
 			});
-			$('section#end').css({
-				'display': 'none',
-			});
-			$(this).removeClass('change-icon').addClass('buttonkanon');
 		};
+		$('html, body').animate({
+			scrollTop: $("div.location-main-btn").offset().top
+		}, 2000);
 	});
 
 	BtnEkbatan.click(function(){
@@ -91,34 +98,21 @@ $(function(){
 			});
 		}else{
 			$('html, body').animate({
-			scrollTop: $(".main").offset().top
-		}, 1000 ,'',function(){
+				scrollTop: $(".main").offset().top
+			}, 1000 ,'',function(){
 				$('section#button').css({
-				'display': 'none',
+					'display': 'none',
+				});
+				$('section#end').css({
+					'display': 'none',
+				});
+				BtnEkbatan.removeClass('change-icon').addClass('buttonekbatan');
 			});
-			$('section#end').css({
-				'display': 'none',
-			});
-			BtnEkbatan.removeClass('change-icon').addClass('buttonekbatan');
-		});
 		}
 		$('html, body').animate({
-			scrollTop: $("#button").offset().top
+			scrollTop: $("div.location-main-btn").offset().top
 		}, 2000);
 	});
-	/************* SCROLLING HOME PAGE *************/
-	// BtnEkbatan.click(function(){
-	// // alert(12);								   
-	// 	$('html, body').animate({
-	// 		scrollTop: $("section#end").offset().top
-	// 	}, 1000);				   
-		 						   
-	// });
-	// 	$('.bottom-title').click(function(){				   
-	// 		$('html, body').animate({
-	// 			scrollTop: $(".top").offset().top
-	// 	}, 1000);				   							   
-	// });
 	/************ CLICK ON SET GALLERY *************/
 	ListSetGallery.click(function(){
 		window.open("gallery.php");
