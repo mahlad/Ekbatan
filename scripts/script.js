@@ -90,16 +90,35 @@ $(function(){
 				'display': 'block',
 			});
 		}else{
-			$('section#button').css({
+			$('html, body').animate({
+			scrollTop: $(".main").offset().top
+		}, 1000 ,'',function(){
+				$('section#button').css({
 				'display': 'none',
 			});
 			$('section#end').css({
 				'display': 'none',
 			});
-			$(this).removeClass('change-icon').addClass('buttonekbatan');
+			BtnEkbatan.removeClass('change-icon').addClass('buttonekbatan');
+		});
 		}
+		$('html, body').animate({
+			scrollTop: $("#button").offset().top
+		}, 2000);
 	});
-
+	/************* SCROLLING HOME PAGE *************/
+	// BtnEkbatan.click(function(){
+	// // alert(12);								   
+	// 	$('html, body').animate({
+	// 		scrollTop: $("section#end").offset().top
+	// 	}, 1000);				   
+		 						   
+	// });
+	// 	$('.bottom-title').click(function(){				   
+	// 		$('html, body').animate({
+	// 			scrollTop: $(".top").offset().top
+	// 	}, 1000);				   							   
+	// });
 	/************ CLICK ON SET GALLERY *************/
 	ListSetGallery.click(function(){
 		window.open("gallery.php");
