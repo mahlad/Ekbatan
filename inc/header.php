@@ -20,6 +20,7 @@
 	<script type="text/javascript">
 		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
 	</script>
+	<script type="text/javascript" src="scripts/jquery-1.js"></script>
 	<script type="text/javascript" src="scripts/cueslider.js"></script>
 	<script type="text/javascript" src="scripts/slide-top.js"></script>
 	<script type="text/javascript" src="scripts/less.js">
@@ -34,7 +35,6 @@
 			document.getElementById('loading').style.display='none';
 		}
 	</script>
-	<script type="text/javascript" src="scripts/jquery-1.js"></script>
 	<style type="text/css">
 		@font-face {
 		    font-family: 'Nazanin';
