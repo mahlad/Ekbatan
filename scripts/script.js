@@ -12,7 +12,7 @@ $(function(){
 	function OpenMenu(){
 		openli=indexList/2;
 		if (openli == 2) {
-			hmenu = 800;
+			hmenu = 500;
 		}else{
 			hmenu = 470;
 		};
