@@ -10,11 +10,8 @@
 			<h3>Thank you for discovering me. This website is the virtual home of mine. I always had the passion to be creative in some way and  wanted to pursue it.
         I figured, it was about time to see what i could do and find which avenue to take to be successful.</h3>
 		</div>
-		<div class="main-menu">
-			<div class="buttonekbatan">شرکت</div>
-        	<div class="buttonkanon">کانون</div>
-		</div>
-		
+		<div class="buttonekbatan">شرکت</div>
+        <div class="buttonkanon">کانون</div>
 	</section>
 	<section id="button">
 		<ul id="main-menu">
