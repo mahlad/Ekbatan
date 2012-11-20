@@ -137,14 +137,14 @@ $(function(){
 		$('div.sp-marketing').animate({
 			width : 0,
 			height : 0 ,
-			top : 1000 ,
+			top : 1200 ,
 			right :650
 		},500,'',function(){
 			$('div.sp-marketing').css({
 				'display' : 'none',
 				width :630,
 				height : 430,
-				top : 800 ,
+				top : 1020 ,
 				right:340
 			});	
 		});
