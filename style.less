@@ -172,6 +172,8 @@ body{
 	section#button{
 		width: 100%;
 		display: none;
+		position: relative;
+
 		ul#main-menu{
 			list-style-type: none;
 			 > li{
@@ -533,7 +535,6 @@ body{
 			position: absolute;
 			bottom: 35px;
 			right: -13px;
-			/*left:-13px;*/
 			width: 205px;
 
 			div.ribbon-left3{
@@ -602,6 +603,36 @@ body{
 			}
 		}
 	}
+	/******************* SPECIAL MARKETING *****************/
+	section.fancy{
+			position: relative;
+			/*overflow: hidden;*/
+			width: 600px;
+			margin:30px auto;
+			height: 350px;
+			z-index: 1102;
+			border: 10px solid #333;
+
+			article.content-sp-market{
+				background-image: url("images/bg_body.jpg");
+				height:320px;
+				color: @text-color;
+				overflow: auto;
+				padding: 15px;
+				font-size: 17px;
+			}
+
+			a#fancy-close{
+				position: absolute;
+				top: -20px;
+				right:-20px;
+				width: 40px;
+				height: 40px;
+				background: transparent url('images/fancy_close.png') 0px 0px;
+				cursor: pointer;
+				z-index: 1103;
+			}
+		}
 
 	section.special-marketing{
 		width:950px;
