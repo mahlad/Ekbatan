@@ -4,9 +4,8 @@ $(function(){
 		BtnKanon = $('section.main div.buttonkanon'),
 		BtnEkbatan = $('section.main div.buttonekbatan'),
 		ListSetGallery = $('div.banner ul li'),
-		SpecialMarke = $('div.small-part a'),
+		LinkSpecialMarke = $('section.marketing a'),
 		BtnClose = $('div.sp-marketing a#fancy-close'),
-		SectionFancy = $('section.fancy'),
 		flag = false,
 		flagKanon = false,
 		flagEkbatan =false,
@@ -127,7 +126,7 @@ $(function(){
 		window.open("gallery.php");
 	});
 	/**************** FANCY CLOSE ****************/
-	SpecialMarke.click(function(){
+	LinkSpecialMarke.click(function(){
 		flagSpMarket = true;
 		$('div.sp-marketing').css({
 			'display' : 'block',
@@ -135,22 +134,18 @@ $(function(){
 	});
 
 	BtnClose.click(function(){
-		// $('div.sp-marketing').css({
-		// 		'display' : 'none',
-		// 	});
-	// $(SectionFancy).animate({
-	// 		width : 0,
-	// 		height : 0 ,
-	// 		top : 90
-	// 	},500);
 		$('div.sp-marketing').animate({
 			width : 0,
 			height : 0 ,
-			 top : 1000 ,
-			 right :650
+			top : 1000 ,
+			right :650
 		},500,'',function(){
 			$('div.sp-marketing').css({
 				'display' : 'none',
+				width :630,
+				height : 430,
+				top : 800 ,
+				right:340
 			});	
 		});
 	});
