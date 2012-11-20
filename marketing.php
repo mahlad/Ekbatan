@@ -4,7 +4,7 @@
 			<p>
 				هتل مجلل درویشی هتل مجلل درویشی هتل مجلل درویشی هتل مجلل درویشی هتل مجلل درویشی 
 			</p>
-			<a href="./special-marketing.php">bla bla</a>
+			<a>bla bla</a>
 		</div>
 		<div class="big-part">
 			<p>
