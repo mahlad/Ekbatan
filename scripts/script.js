@@ -5,11 +5,12 @@ $(function(){
 		BtnEkbatan = $('section.main div.buttonekbatan'),
 		ListSetGallery = $('div.banner ul li'),
 		SpecialMarke = $('div.small-part a'),
-		BtnClose = $('section.fancy a#fancy-close'),
+		BtnClose = $('div.sp-marketing a#fancy-close'),
 		SectionFancy = $('section.fancy'),
 		flag = false,
 		flagKanon = false,
 		flagEkbatan =false,
+		flagSpMarket = false,
 		current = -1;
 
 	function OpenMenu(){
@@ -18,6 +19,11 @@ $(function(){
 			hmenu = 500;
 		}else{
 			hmenu = 470;
+		};
+		if (flagSpMarket) {
+			$('div.sp-marketing').css({
+				'display' : 'none',
+			});
 		};
 		ContentList.eq(openli).css({
 			'display': 'block',
@@ -122,20 +128,27 @@ $(function(){
 	});
 	/**************** FANCY CLOSE ****************/
 	SpecialMarke.click(function(){
+		flagSpMarket = true;
 		$('div.sp-marketing').css({
 			'display' : 'block',
 		});
 	});
 
 	BtnClose.click(function(){
-		$(SectionFancy).animate({
+		// $('div.sp-marketing').css({
+		// 		'display' : 'none',
+		// 	});
+	// $(SectionFancy).animate({
+	// 		width : 0,
+	// 		height : 0 ,
+	// 		top : 90
+	// 	},500);
+		$('div.sp-marketing').animate({
 			width : 0,
 			height : 0 ,
-			top : 90
+			 top : 1000 ,
+			 right :650
 		},500,'',function(){
-			// SectionFancy.css({
-			// 	'display' : 'none'
-			// });	
 			$('div.sp-marketing').css({
 				'display' : 'none',
 			});	
