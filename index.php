@@ -146,7 +146,9 @@
 		</div>
 	</section>
 	<div class="sp-marketing">
-		<iframe src="./special-marketing.php" id="if-sp-marketing"></iframe>
+		<iframe src="./special-marketing.php" id="if-sp-marketing">
+		</iframe>
+		<a id="fancy-close"></a>
 	</div>
 <?php 
 	include "./inc/footer.php";
