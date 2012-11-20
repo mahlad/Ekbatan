@@ -24,14 +24,31 @@
 						<div class="header-icon">
 							<img src="images/icon_digitalart.png" alt="title" width="30" height="30" />
 						</div>
-						<div class="header-title">تبلیغات</div>
+						<div class="header-title">خدمات</div>
+					</div>
+				</div>
+			</li>
+			<div class="content">
+				<div class="txt">
+					<p>
+						خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما 
+					</p>
+				</div>
+			</div>
+			<li>
+				<div class="header-bg">
+					<div class="header-txt cover">
+						<div class="header-icon">
+							<img src="images/icon_digitalart.png" alt="title" width="30" height="30" />
+						</div>
+						<div class="header-title">گالری</div>
 					</div>
 				</div>
 			</li>
 			<div class="content">
 				<div class="txt">
 					<?php 
-						include "marketing.php";
+						include "setgallery.php";
 					?>
 				</div>
 			</div>
@@ -58,32 +75,15 @@
 						<div class="header-icon">
 							<img src="images/icon_digitalart.png" alt="title" width="30" height="30" />
 						</div>
-						<div class="header-title">گالری</div>
+						<div class="header-title">تبلیغات</div>
 					</div>
 				</div>
 			</li>
 			<div class="content">
 				<div class="txt">
 					<?php 
-						include "setgallery.php";
+						include "marketing.php";
 					?>
-				</div>
-			</div>
-			<li>
-				<div class="header-bg">
-					<div class="header-txt cover">
-						<div class="header-icon">
-							<img src="images/icon_digitalart.png" alt="title" width="30" height="30" />
-						</div>
-						<div class="header-title">خدمات</div>
-					</div>
-				</div>
-			</li>
-			<div class="content">
-				<div class="txt">
-					<p>
-						خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما خدمات ما 
-					</p>
 				</div>
 			</div>
 			<li>
