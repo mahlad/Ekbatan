@@ -11,8 +11,8 @@
         I figured, it was about time to see what i could do and find which avenue to take to be successful.</h3>
 		</div>
 		<div class="pr2">
-			<div class="buttonekbatan">شرکت</div>
-        	<div class="buttonkanon">کانون</div>
+			<div class="buttonekbatan"><p>گرافیک و تبلیغات</p></div>
+        	<div class="buttonkanon"><p>شبکه و کامپیوتر</p></div>
         </div>
 	</section>
 	<div class="location-main-btn cover"></div>
