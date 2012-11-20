@@ -4,6 +4,7 @@ $(function(){
 		BtnKanon = $('section.main div.buttonkanon'),
 		BtnEkbatan = $('section.main div.buttonekbatan'),
 		ListSetGallery = $('div.banner ul li'),
+		SpecialMarke = $('div.small-part a'),
 		BtnClose = $('section.fancy a#fancy-close'),
 		SectionFancy = $('section.fancy'),
 		flag = false,
@@ -120,15 +121,24 @@ $(function(){
 		window.open("gallery.php");
 	});
 	/**************** FANCY CLOSE ****************/
+	SpecialMarke.click(function(){
+		$('div.sp-marketing').css({
+			'display' : 'block',
+		});
+	});
+
 	BtnClose.click(function(){
 		$(SectionFancy).animate({
 			width : 0,
 			height : 0 ,
 			top : 90
 		},500,'',function(){
-			SectionFancy.css({
-				'display' : 'none'
-			});		
+			// SectionFancy.css({
+			// 	'display' : 'none'
+			// });	
+			$('div.sp-marketing').css({
+				'display' : 'none',
+			});	
 		});
 	});
 });
