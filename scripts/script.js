@@ -4,6 +4,8 @@ $(function(){
 		BtnKanon = $('section.main div.buttonkanon'),
 		BtnEkbatan = $('section.main div.buttonekbatan'),
 		ListSetGallery = $('div.banner ul li'),
+		BtnClose = $('section.fancy a#fancy-close'),
+		SectionFancy = $('section.fancy'),
 		flag = false,
 		flagKanon = false,
 		flagEkbatan =false,
@@ -116,5 +118,17 @@ $(function(){
 	/************ CLICK ON SET GALLERY *************/
 	ListSetGallery.click(function(){
 		window.open("gallery.php");
+	});
+	/**************** FANCY CLOSE ****************/
+	BtnClose.click(function(){
+		$(SectionFancy).animate({
+			width : 0,
+			height : 0 ,
+			top : 90
+		},500,'',function(){
+			SectionFancy.css({
+				'display' : 'none'
+			});		
+		});
 	});
 });
