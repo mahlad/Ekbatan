@@ -7,3 +7,5 @@
 		</article>
 		<a id="fancy-close"></a>
 	</section>
+</body>
+</html>
