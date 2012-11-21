@@ -6,10 +6,12 @@ $(function(){
 		ListSetGallery = $('div.banner ul li'),
 		LinkSpecialMarke = $('section.marketing a'),
 		BtnClose = $('div.sp-marketing a#fancy-close'),
+		BtnCensus = $('div.census div.icon-census'),
 		flag = false,
 		flagKanon = false,
 		flagEkbatan =false,
 		flagSpMarket = false,
+		flagCensus = false,
 		current = -1;
 
 	function OpenMenu(){
@@ -148,5 +150,18 @@ $(function(){
 				right:90
 			});	
 		});
+	});
+	/****************** BtnCensus *************/
+	BtnCensus.click(function(){
+		flagCensus = !flagCensus;
+		if (flagCensus) {
+			$('div.census').animate({
+				top : 0,
+			},400);
+		}else{
+			$('div.census').animate({
+				top : -60,
+			},400);
+		};
 	});
 });
