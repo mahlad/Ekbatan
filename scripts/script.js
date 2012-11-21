@@ -132,6 +132,9 @@ $(function(){
 		flagSpMarket = true;
 		$('div.sp-marketing').css({
 			'display' : 'block',
+		}).animate({
+			top : 60,
+			right : 90
 		});
 		$('iframe#if-sp-marketing').animate({
 			width :630,
@@ -151,8 +154,8 @@ $(function(){
 				'display' : 'none',
 				width :630,
 				height : 430,
-				top : 60 ,
-				right:90
+				top : 220 ,
+				right:290
 			});	
 			$('iframe#if-sp-marketing').css({
 				width :0,
