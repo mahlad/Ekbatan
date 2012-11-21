@@ -6,9 +6,7 @@
 			<div class="content-census">
 				hello hello hello hello hello hello hello hello hello hello 
 			</div>
-			<div class="icon-census">
-				
-			</div>
+			<div class="icon-census"></div>
 		</div>
 		<div class="main-txt">
 			<h1>hello! i'm shihab
