@@ -137,15 +137,15 @@ $(function(){
 		$('div.sp-marketing').animate({
 			width : 0,
 			height : 0 ,
-			top : 1200 ,
-			right :650
+			top : 320 ,
+			right :250
 		},500,'',function(){
 			$('div.sp-marketing').css({
 				'display' : 'none',
 				width :630,
 				height : 430,
-				top : 1020 ,
-				right:340
+				top : 60 ,
+				right:90
 			});	
 		});
 	});
