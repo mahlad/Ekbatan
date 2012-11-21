@@ -135,11 +135,11 @@ $(function(){
 		}).animate({
 			top : 60,
 			right : 90
-		});
+		},400);
 		$('iframe#if-sp-marketing').animate({
 			width :630,
 			height : 430,
-		},500);
+		},400);
 
 	});
 
