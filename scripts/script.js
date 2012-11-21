@@ -127,12 +127,17 @@ $(function(){
 	ListSetGallery.click(function(){
 		window.open("gallery.php");
 	});
-	/**************** FANCY CLOSE ****************/
+	/**************** FANCY  ****************/
 	LinkSpecialMarke.click(function(){
 		flagSpMarket = true;
 		$('div.sp-marketing').css({
 			'display' : 'block',
 		});
+		$('iframe#if-sp-marketing').animate({
+			width :630,
+			height : 430,
+		},500);
+
 	});
 
 	BtnClose.click(function(){
@@ -149,6 +154,10 @@ $(function(){
 				top : 60 ,
 				right:90
 			});	
+			$('iframe#if-sp-marketing').css({
+				width :0,
+				height : 0,
+			});
 		});
 	});
 	/****************** BtnCensus *************/
