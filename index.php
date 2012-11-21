@@ -2,6 +2,14 @@
 	include "./inc/header.php";
 ?>
 	<section class="main">
+		<div class="census">
+			<div class="content-census">
+				hello hello hello hello hello hello hello hello hello hello 
+			</div>
+			<div class="icon-census">
+				
+			</div>
+		</div>
 		<div class="main-txt">
 			<h1>hello! i'm shihab
 				<img src="images/shihabs_registeredlogo_tm.png">
